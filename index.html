@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>BG Remover Pro</title>
+    <meta name="description" content="Remove image backgrounds instantly with AI. Free, fast, and professional results." />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">BG Remover Pro</div>
+        <ul class="nav">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">How It Works</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li>
+                <select id="lang-switcher">
+                    <option value="en">English</option>
+                    <option value="ar">العربية</option>
+                </select>
+            </li>
+        </ul>
+    </nav>
+    <section class="hero">
+        <h1>Free Image Background Remover</h1>
+        <p>Instantly remove background from any image using advanced AI background remover. No sign-up needed!</p>
+        <button id="uploadBtn">Upload Image</button>
+        <input type="file" id="uploadInput" accept="image/*" style="display:none" />
+        <div id="preview-area"></div>
+    </section>
+    <footer>
+        <p>&copy; 2025 BG Remover Pro — All rights reserved.</p>
+        <a href="#">Privacy Policy</a> | <a href="#">Terms</a> | <a href="#">Contact</a>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
